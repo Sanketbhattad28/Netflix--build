@@ -21,10 +21,10 @@ const LoginScreen = () => {
         </button>
         <div className="loginScreen_gradient"> </div>
       </div>
-      {signIn ? (
-        <SignInScreen />
-      ) : (
-        <div className="loginScreen_body">
+      <div className="loginScreen_body">
+        {signIn ? (
+          <SignInScreen />
+        ) : (
           <>
             <h1>Unlimited flims, TV programmes and more.</h1>
             <h2>Watch anywhere. Cancle at any time.</h2>
@@ -44,8 +44,8 @@ const LoginScreen = () => {
               </form>
             </div>
           </>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 };
