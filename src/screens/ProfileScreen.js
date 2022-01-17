@@ -7,7 +7,11 @@ import PlanScreen from "./PlanScreen";
 import "./profileScreen.css";
 
 const ProfileScreen = () => {
+  //const [plan, setPlan] = useState("");
   const user = useSelector(selectUser);
+  // const getRole = (role) => {
+  //   setPlan(role);
+  // };
   return (
     <div className="profileScreen">
       <Nav />
