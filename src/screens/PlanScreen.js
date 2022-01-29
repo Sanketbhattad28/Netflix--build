@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { selectUser } from "../features/userSlice";
-import { db } from "../Firebase";
+// import { db } from "../Firebase";
+import db from "../Firebase";
 import "./planScreen.css";
 import { loadStripe } from "@stripe/stripe-js";
 
@@ -77,6 +78,7 @@ const PlanScreen = (props) => {
       }
       if (sessionId) {
         //we have a session
+        console.log("clicked");
         const strip = await loadStripe(
           "pk_test_51KIUBmSBUi7HOjkGjHelNMtYtYZ7d8g4g14JlLlXW9qMAx731lww3V4sU0dpbGIEvuq6EVYsnKaRJlV70ipO207V00bCdw6UDm"
         );

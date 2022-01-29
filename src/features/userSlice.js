@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const userSlice = createSlice({
   name: "user",
   initialState: {
-    role: null,
+    //role: null,
     user: null,
   },
   reducers: {
@@ -15,13 +15,13 @@ export const userSlice = createSlice({
       console.log("in slice logout");
       state.user = null;
     },
-    getRole: (state, action) => {
-      state.role = action.payload;
-    },
+    // getRole: (state, action) => {
+    //   state.role = action.payload;
+    // },
   },
 });
 
-export const { login, logout, getRole } = userSlice.actions;
+export const { login, logout } = userSlice.actions;
 
 export const selectUser = (state) => state.counter.user;
 
