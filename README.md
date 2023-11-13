@@ -1,3 +1,8 @@
+Site link: https://netflix-clone-sb28.web.app/
+
+## Snapshots
+![Netflix-1](https://github.com/Sanketbhattad28/Netflix--build/assets/45588753/2225416d-cc0c-4d57-95c6-995c7e7503b6)
+![Netflix-2](https://github.com/Sanketbhattad28/Netflix--build/assets/45588753/9c092497-efda-4adf-990d-f252e11c44b1)
 ![image](https://github.com/Sanketbhattad28/Netflix--build/assets/45588753/929aafc8-3077-488d-abd2-3cec3f983b9c)
 
 ## Available Scripts
