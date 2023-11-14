@@ -1,5 +1,7 @@
 Site link: https://netflix-clone-sb28.web.app/
 
+Sign in forst with email and password and then you can login with that same email and password !!
+
 ## Snapshots
 ![Netflix-1](https://github.com/Sanketbhattad28/Netflix--build/assets/45588753/2225416d-cc0c-4d57-95c6-995c7e7503b6)
 ![Netflix-2](https://github.com/Sanketbhattad28/Netflix--build/assets/45588753/9c092497-efda-4adf-990d-f252e11c44b1)
